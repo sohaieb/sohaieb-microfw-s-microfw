@@ -1,0 +1,21 @@
+{
+    "name": "sohaieb-microfw/s-microfw",
+    "description": "This is a microframework for own purposal usages",
+    "type": "project",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "sohaieb",
+            "email": "sohaiebazaiezprof@gmail.com"
+        }
+    ],
+    "require": {
+      "php": ">=7.1",
+      "swiftmailer/swiftmailer": "^6.2",
+      "klein/klein": "^2.1",
+      "symfony/dotenv": "^5.2"
+    },
+  "autoload": {
+    "classmap": ["helpers","entities"]
+  }
+}
