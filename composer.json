@@ -3,7 +3,7 @@
     "description": "This is a microframework for own purposal usages",
     "type": "project",
     "version": "1.0.0",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "sohaieb",
