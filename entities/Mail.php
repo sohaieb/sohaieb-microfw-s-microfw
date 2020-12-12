@@ -24,6 +24,11 @@ class Mail
    */
   public function toArray(): array
   {
+      /**
+       * $get_object_vars = get_object_vars($this);
+        unset($get_object_vars['parsedBody']);
+        return $get_object_vars;
+       */
     return (array)$this;
   }
 
